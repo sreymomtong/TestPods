@@ -1,0 +1,22 @@
+{
+  "name": "TestPods",
+  "version": "0.1.0",
+  "summary": "A short description of TestPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TestPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sreymom TONG": "sreymom.tong@sompom.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TestPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestPods/Classes/**/*"
+}
