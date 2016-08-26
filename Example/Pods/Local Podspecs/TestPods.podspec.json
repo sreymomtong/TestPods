@@ -1,9 +1,9 @@
 {
   "name": "TestPods",
   "version": "0.1.0",
-  "summary": "A short description of TestPods.",
+  "summary": "This is app lib first test.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TestPods",
+  "homepage": "https://github.com/sreymomtong/TestPods",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "Sreymom TONG": "sreymom.tong@sompom.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TestPods.git",
+    "git": "https://github.com/sreymomtong/TestPods.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TestPods/Classes/**/*"
+  "source_files": "TestPods/Classes/**/*",
+  "resource_bundles": {
+    "TestPods": [
+      "TestPods/Assets/*.png"
+    ]
+  }
 }
